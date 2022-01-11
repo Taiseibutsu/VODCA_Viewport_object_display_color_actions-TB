@@ -133,7 +133,7 @@ class TEST_PT_panel(bpy.types.Panel):
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
     bl_label = "TB Set Color Display"
-    bl_category = "TB_OPS"
+    bl_category = "TB"
     
     def draw_header(self,context):
         layout = self.layout
